@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="342.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cn.lyq.Controller">
+   <children>
+      <Button fx:id="captureScreenBtn" layoutX="57.0" layoutY="57.0" mnemonicParsing="false" onAction="#onCaptureScreenBtn" prefHeight="50.0" prefWidth="285.0" text="截取远程屏幕" textFill="#046f44">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="mouseSpinBtn" layoutX="57.0" layoutY="147.0" mnemonicParsing="false" onAction="#onMouseSpinBtn" prefHeight="50.0" prefWidth="285.0" text="远程鼠标转圈" textFill="#046f44">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="execCmdBtn" layoutX="57.0" layoutY="235.0" mnemonicParsing="false" onAction="#onExecCmdBtn" prefHeight="50.0" prefWidth="285.0" text="执行远程命令..." textFill="#046f44">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="24.0" />
+         </font>
+      </Button>
+      <Hyperlink fx:id="changeServerIPLink" layoutX="272.0" layoutY="307.0" onAction="#onChangeServerIPLink" text="修改服务器IP地址" />
+   </children>
+</AnchorPane>
